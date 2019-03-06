@@ -1,0 +1,28 @@
+{
+    "name": "qiita",
+    "displayName": "Qiita",
+    "description": "Qiita Theme Pack for VS Code",
+    "icon": "images/qiita-logo.png",
+    "version": "1.0.0",
+    "publisher": "magiruuvelvet",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Qiita闇",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Qiita-color-theme-dark.json"
+            },
+            {
+                "label": "Qiita白",
+                "uiTheme": "vs",
+                "path": "./themes/Qiita-color-theme-light.json"
+            }
+        ]
+    }
+}
